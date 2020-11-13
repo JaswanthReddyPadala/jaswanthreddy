@@ -136,13 +136,13 @@ a {
 }
 .header_name {
   font-size: 4rem;
-  font-weight: 500;
-  text-transform: capitalize;
+  font-weight: 700;
+  text-transform: uppercase;
   color: var(--main-coral);
   animation: brake ease-in-out 1s;
 }
 .header_name_one{
-  font-weight: 2.8rem;
+  font-size: 3.25rem;
 }
 .header_descriptionone {
   font-size: 1.1rem;
