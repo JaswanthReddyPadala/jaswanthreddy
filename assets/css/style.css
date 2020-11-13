@@ -361,4 +361,24 @@ display: flex;
 .contact_box a i{
   color:var(--main-dblue);
   margin-right:3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact_box a i:hover{
+  transform: scale(1.3);
+  transition: all 0.3s ease-in-out;
+
+}
+
+@media screen and (max-width:720px){
+  .header_body{
+    flex-direction: column;
+  }
+  .mypic{
+    width:10rem;
+    height:10rem;
+    transform: translate(0,0);
+  }
+
+
 }
